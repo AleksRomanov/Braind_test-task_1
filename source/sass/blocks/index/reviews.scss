@@ -1,6 +1,6 @@
 .reviews {
   box-sizing: border-box;
-  padding: 118px 22.87% 0;
+  padding: 118px 19.77% 0;
   position: relative;
   color: black;
   margin: 0 auto;
@@ -463,6 +463,10 @@
 
 .reviews-table__row--extra {
   border-bottom: 1px solid #F2F2F2;
+
+  .reviews-table__item-actions {
+    display: none;
+  }
 
   & .reviews-updated .reviews-table__rating {
     display: none;
