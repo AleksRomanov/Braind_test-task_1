@@ -1,6 +1,6 @@
 .reviews {
   box-sizing: border-box;
-  padding: 118px 22.87% 0;
+  padding: 118px 19.77% 0;
   position: relative;
   color: black;
   margin: 0 auto;
@@ -227,17 +227,19 @@
 }
 
 .reviews-table__item-actions {
+  width: 16%;
   border-bottom: 1px solid #F2F2F2;
 
   @include mobile {
     order: 4;
+    width: 100%;
   }
 }
 
 .reviews-table__item-actions button {
   margin: 0;
   box-sizing: border-box;
-  padding: 6px 17px 11px 17px;
+  padding: 4.9% 11.3% 6.6%;
   background-color: transparent;
   border: 1px solid #979797;
   border-radius: 2px;
@@ -461,6 +463,10 @@
 
 .reviews-table__row--extra {
   border-bottom: 1px solid #F2F2F2;
+
+  .reviews-table__item-actions {
+    display: none;
+  }
 
   & .reviews-updated .reviews-table__rating {
     display: none;
