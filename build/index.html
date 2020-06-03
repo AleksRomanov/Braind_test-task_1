@@ -1,0 +1,198 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="utf-8">
+  <link rel="preload" as="font" crossorigin="anonymous" href="fonts/opensans.woff2">
+  <link rel="preload" as="font" crossorigin="anonymous" href="fonts/opensansbold.woff2">
+
+  <link rel="stylesheet" href="css/style.min.css">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <title>Braind - test</title>
+</head>
+<body>
+
+<div style="display: none;">
+  <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"><symbol id="oval" viewBox="0 0 15 15">
+<g id="(!)">
+<path id="Oval" d="M7.5 15C11.6421 15 15 11.6421 15 7.5C15 3.35786 11.6421 0 7.5 0C3.35786 0 0 3.35786 0 7.5C0 11.6421 3.35786 15 7.5 15Z" fill="#FF6D00"></path>
+<path id="!" d="M7.75391 9.03223H7.24121L6.99219 3.86133H8.00293L7.75391 9.03223ZM6.9043 10.4824C6.9043 10.0397 7.09961 9.81836 7.49023 9.81836C7.67904 9.81836 7.82389 9.87533 7.9248 9.98926C8.02897 10.1032 8.08105 10.2676 8.08105 10.4824C8.08105 10.6908 8.02897 10.8535 7.9248 10.9707C7.82064 11.0846 7.67578 11.1416 7.49023 11.1416C7.32096 11.1416 7.18099 11.0911 7.07031 10.9902C6.95964 10.8861 6.9043 10.7168 6.9043 10.4824Z" fill="white"></path>
+</g>
+</symbol><symbol id="star" viewBox="0 0 12 11">
+<path d="M6.23394 0.342658L7.51633 2.95107C7.6055 3.13249 7.77793 3.2582 7.97739 3.28724L10.845 3.70555C11.3474 3.77888 11.5478 4.39837 11.1844 4.75382L9.10942 6.78418C8.96521 6.92536 8.89928 7.12892 8.93343 7.32819L9.42319 10.1952C9.50905 10.6973 8.98395 11.0801 8.53475 10.8432L5.96996 9.48973C5.79161 9.39569 5.57839 9.39569 5.40004 9.48973L2.83525 10.8432C2.38605 11.0803 1.86095 10.6973 1.9468 10.1952L2.43657 7.32819C2.47072 7.12892 2.40478 6.92536 2.26058 6.78418L0.185562 4.75382C-0.177787 4.39813 0.0226241 3.77864 0.524956 3.70555L3.39261 3.28724C3.59207 3.2582 3.7645 3.13249 3.85367 2.95107L5.13606 0.342658C5.36043 -0.114219 6.00933 -0.114219 6.23394 0.342658Z" fill="#ED8A19"></path>
+</symbol><symbol id="star_2" viewBox="0 0 13 11">
+<g id="Group 15">
+<path id="Shape" d="M6.72234 0.342658L8.00473 2.95107C8.09391 3.13249 8.26633 3.2582 8.46579 3.28724L11.3334 3.70555C11.8358 3.77888 12.0362 4.39837 11.6728 4.75382L9.59782 6.78418C9.45362 6.92536 9.38768 7.12892 9.42184 7.32819L9.9116 10.1952C9.99745 10.6973 9.47235 11.0801 9.02315 10.8432L6.45837 9.48973C6.28001 9.39569 6.06679 9.39569 5.88844 9.48973L3.32366 10.8432C2.87445 11.0803 2.34935 10.6973 2.43521 10.1952L2.92497 7.32819C2.95912 7.12892 2.89319 6.92536 2.74899 6.78418L0.673965 4.75382C0.310617 4.39813 0.511027 3.77864 1.01336 3.70555L3.88101 3.28724C4.08047 3.2582 4.2529 3.13249 4.34208 2.95107L5.62447 0.342658C5.84883 -0.114219 6.49774 -0.114219 6.72234 0.342658Z" fill="#ED8A19"></path>
+<mask id="mask0" mask-type="alpha" maskUnits="userSpaceOnUse" x="0" y="0" width="12" height="11">
+<path id="Shape_2" d="M6.72234 0.342658L8.00473 2.95107C8.09391 3.13249 8.26633 3.2582 8.46579 3.28724L11.3334 3.70555C11.8358 3.77888 12.0362 4.39837 11.6728 4.75382L9.59782 6.78418C9.45362 6.92536 9.38768 7.12892 9.42184 7.32819L9.9116 10.1952C9.99745 10.6973 9.47235 11.0801 9.02315 10.8432L6.45837 9.48973C6.28001 9.39569 6.06679 9.39569 5.88844 9.48973L3.32366 10.8432C2.87445 11.0803 2.34935 10.6973 2.43521 10.1952L2.92497 7.32819C2.95912 7.12892 2.89319 6.92536 2.74899 6.78418L0.673965 4.75382C0.310617 4.39813 0.511027 3.77864 1.01336 3.70555L3.88101 3.28724C4.08047 3.2582 4.2529 3.13249 4.34208 2.95107L5.62447 0.342658C5.84883 -0.114219 6.49774 -0.114219 6.72234 0.342658Z" fill="white"></path>
+</mask>
+<g mask="url(#mask0)">
+<rect id="Rectangle" x="7" y="-2" width="7" height="14" fill="#D9D9E0"></rect>
+</g>
+</g>
+</symbol><symbol id="strelka_vniz" viewBox="0 0 10 6">
+<path fill-rule="evenodd" clip-rule="evenodd" d="M4.83948 6L0 1.54881L0.820452 0L4.98216 3.76139L9.15577 0L10 1.54881L5.16052 6H4.83948Z" fill="#FF6D00"></path>
+</symbol></svg>
+</div>
+
+<main class="main">
+  <section class="reviews">
+    <h1 class="reviews__title">Мои отзывы о товарах </h1>
+    <div class="reviews__title-content">
+      <svg width="15" height="15">
+        <use xlink:href="img/sprite.svg#oval"></use>
+      </svg>
+      <span>Ваши отзывы будут опубликованы на сайте после проверки модератором.</span>
+    </div>
+    <div class="reviews__wrapper">
+      <table class="reviews-table">
+        <tr class="reviews-table__row reviews-table__row--header">
+          <td class="reviews-table__item reviews-table__item--photo">Фото</td>
+          <td class="reviews-table__item reviews-table__item--name">Наименование товара</td>
+          <td class="reviews-table__item reviews-table__item--reviews">Ваши отзывы</td>
+          <td class="reviews-table__item reviews-table__item--review_status">Статус отзыва</td>
+          <td class="reviews-table__item reviews-table__item--actions">Действия</td>
+        </tr>
+        <tr class="reviews-table__row">
+          <td class="reviews-table__item reviews-table__item--photo">
+            <img class="reviews-table__img" src="img/perf.png" width="41" height="40" alt="" aria-label="Bosh">
+          </td>
+          <td class="reviews-table__item  reviews-table__item-name">Дрель ударная BOSCH PSB 550 RЕ, БЗП<br> Арт.0603130020</td>
+          <td class="reviews-table__item  reviews-table__item-reviews">
+            <div class="reviews-table__rating">
+              <svg width="12" height="11">
+                <use xlink:href="img/sprite.svg#star"></use>
+              </svg>
+              <svg width="12" height="11">
+                <use xlink:href="img/sprite.svg#star"></use>
+              </svg>
+              <svg width="12" height="11">
+                <use xlink:href="img/sprite.svg#star"></use>
+              </svg>
+              <svg width="12" height="11">
+                <use xlink:href="img/sprite.svg#star"></use>
+              </svg>
+              <svg width="12" height="11">
+                <use xlink:href="img/sprite.svg#star_2"></use>
+              </svg>
+              <span>4,6</span>
+            </div>
+            <ul class="reviews-table__rating-list">
+              <li class="reviews-table__rating-list-item">Впечатление:5</li>
+              <li class="reviews-table__rating-list-item">Соответствие:4</li>
+              <li class="reviews-table__rating-list-item">Надёжность:5</li>
+            </ul>
+            <p>Значит купил я данную модель, поработал неделю, отказал один аккумулятор, заряд держит так себе, НОООООО МАГАЗИН АДЕКВАТНЫЙ, ОБМЕНЯЛИ НА НОВЫЙ, ПРИЧЁМ ПРИВЕЗЛИ ДОМОЙ. С ТАКИМ ПРОДАВЦОМ ПРИЯТНО...</p>
+            <details class="reviews-table__details">
+              <summary class="reviews-table__spoiler">
+                <div class="spoiler-wrapper">
+                  <span>Подробнее</span>
+                  <svg width="6" height="10">
+                    <use xlink:href="img/sprite.svg#strelka_vniz"></use>
+                  </svg>
+                </div>
+              </summary>
+              <ul class="text pricing__text">
+                <li>Дополненный отзыв Дополненный отзыв Дополненный отзыв Дополненный отзыв Дополненный отзыв Дополненный отзыв Дополненный отзыв Дополненный отзыв Дополненный отзыв</li>
+              </ul>
+            </details>
+          </td>
+          <td class="reviews-table__item reviews-table__item-review_status">
+            <div class="reviews__status">
+              <p class="reviews__status-item">опубликован</p>
+              <span class="reviews__status-item-data">1 августа, 2018</span>
+            </div>
+          </td>
+          <td class="reviews-table__item reviews-table__item-actions">
+            <button>Дополнить отзыв</button>
+          </td>
+        </tr>
+
+        <tr class="reviews-table__row reviews-table__row--extra">
+          <td class="reviews-table__item reviews-table__item--photo">
+          </td>
+          <td class="reviews-table__item  reviews-table__item-name"></td>
+          <td class="reviews-table__item  reviews-table__item-reviews">
+
+            <div class="reviews-updated">
+              <p>Дополненный отзыв</p>
+              <div class="reviews-table__rating">
+                <svg width="12" height="11">
+                  <use xlink:href="img/sprite.svg#star"></use>
+                </svg>
+                <svg width="12" height="11">
+                  <use xlink:href="img/sprite.svg#star"></use>
+                </svg>
+                <svg width="12" height="11">
+                  <use xlink:href="img/sprite.svg#star"></use>
+                </svg>
+                <svg width="12" height="11">
+                  <use xlink:href="img/sprite.svg#star"></use>
+                </svg>
+                <svg width="12" height="11">
+                  <use xlink:href="img/sprite.svg#star_2"></use>
+                </svg>
+                <span>4,6</span>
+              </div>
+              <ul class="reviews-table__rating-list">
+                <li class="reviews-table__rating-list-item">Впечатление:5</li>
+                <li class="reviews-table__rating-list-item">Соответствие:4</li>
+                <li class="reviews-table__rating-list-item">Надёжность:5</li>
+              </ul>
+              <span>Год прошел, работает как пушка!</span>
+            </div>
+            <div class="swiper-container reviews-swiper">
+              <div class="swiper-wrapper">
+                <div class="swiper-slide reviews-slide">
+                  <img class="" src="../img/shurik.png" width="70" height="70">
+                </div>
+                <div class="swiper-slide">
+                  <img class="" src="../img/bosh.png" width="70" height="70">
+                </div>
+              </div>
+            </div>
+          </td>
+          <td class="reviews-table__item reviews-table__item-review_status">
+            <div class="reviews__status">
+              <p class="reviews__status-item">на модерации</p>
+              <span class="reviews__status-item-data">19 августа, 2018</span>
+            </div>
+          </td>
+          <td class="reviews-table__item reviews-table__item-actions">
+          </td>
+        </tr>
+
+        <tr class="reviews-table__row reviews-table__row--ekran">
+          <td class="reviews-table__item reviews-table__item--photo">
+            <img class="reviews-table__img" src="img/ekran.png" width="42" height="40" alt="" aria-label="Ekran">
+          </td>
+          <td class="reviews-table__item reviews-table__item-name">Декоративный металлический экран на радиатор 3-х секционный 3 ДМЭР</td>
+          <td class="reviews-table__item reviews-table__item-reviews">
+            <span>К сожалению, ваш отзыв не прошёл модерацию.</span>
+          </td>
+          <td class="reviews-table__item reviews-table__item-review_status">
+            <div class="reviews__status">
+              <p class="reviews__status-item">Не опубликован</p>
+              <span>23 июня, 2019</span>
+            </div>
+          </td>
+        </tr>
+      </table>
+    </div>
+  </section>
+
+  <section class="reviews-popup-swiper">
+    <div class="swiper-container reviews-popup">
+      <div class="swiper-wrapper">
+        <div class="swiper-slide">1</div>
+        <div class="swiper-slide">2</div>
+      </div>
+    </div>
+  </section>
+
+</main>
+
+<script src="js/libs/swiper.min.js"></script>
+<script src="js/scripts.js"></script>
+
+</body>
+</html>
