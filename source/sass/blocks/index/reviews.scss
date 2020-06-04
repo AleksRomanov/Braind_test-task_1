@@ -1,16 +1,25 @@
 .reviews {
-  box-sizing: border-box;
-  padding: 118px 19.77% 0;
+  margin: 0 auto;
+  margin-top: 119px;
+  max-width: 930px;
   position: relative;
   color: black;
-  margin: 0 auto;
-  width: 100%;
   overflow: hidden;
 
-  @include mobile {
-    padding: 18% 7.27% 0;
-    min-width: 320px;
+  @include tablet-max {
+    padding: 0 10px;
   }
+
+  @include mobile {
+    padding: 0 24px;
+    box-sizing: border-box;
+    min-width: 320px;
+    margin-top: 58px;
+  }
+}
+
+.reviews-wrapper-container {
+  padding: 0 10px;
 }
 
 .nice-things__catalog {
@@ -69,7 +78,7 @@
     //flex-direction: column;
     border: 1px solid #E8E7E7;
     padding: 6.2% 5.4%;
-    max-width: 273px;
+    //max-width: 273px;
     position: relative;
 
     .reviews-table__row--extra {
@@ -153,7 +162,7 @@
 }
 
 .reviews-table__item--reviews {
-  width: 393px;
+  width: 42.3%;
 
   @include mobile {
     order: 3;
@@ -161,8 +170,8 @@
 }
 
 .reviews-table__item-review_status {
-  padding-right: 3.9%;
   border-bottom: 1px solid #F2F2F2;
+  width: 13.5%;
 
   @include mobile {
     order: 0;
@@ -173,7 +182,7 @@
 }
 
 .reviews-table__item--review_status {
-  width: 127px;
+  width: 13.7%;
 }
 
 .reviews__status {
@@ -191,6 +200,7 @@
   @include mobile {
     order: 1;
     width: 40%;
+    text-align: center;
   }
 }
 
@@ -213,7 +223,7 @@
   margin-bottom: 7px;
   box-sizing: border-box;
   padding: 4px 7px;
-  //min-width: 93px;
+  width: 93px;
   //min-height: 22px;
   background-color: #50AD01;
   border-radius: 2px;
@@ -239,7 +249,7 @@
 .reviews-table__item-actions button {
   margin: 0;
   box-sizing: border-box;
-  padding: 4.9% 11.3% 6.6%;
+  padding: 8px 16.9px 9px;
   background-color: transparent;
   border: 1px solid #979797;
   border-radius: 2px;
@@ -256,6 +266,10 @@
 
   &:active {
     opacity: 0.5;
+  }
+
+  @include tablet-max {
+    padding: 6% 2.4%;
   }
 
   @include mobile {
@@ -287,7 +301,7 @@
 
   @include mobile {
     order: 2;
-    width: 75%;
+    width: 75.4%;
     font-size: 14px;
     line-height: 20px;
     padding: 0;
@@ -485,6 +499,10 @@
     border: none;
   }
 
+  .reviews__status-item {
+    width: 96px;
+  }
+
   @include mobile {
     display: flex;
     flex-wrap: wrap;
@@ -567,8 +585,8 @@
 
     & .reviews__status p {
       position: absolute;
-      top: 13px;
-      right: 11px;
+      top: 16px;
+      right: 12px;
     }
   }
 
@@ -584,6 +602,7 @@
 
   & .reviews__status-item {
     margin-bottom: 7px;
+    width: 107px;
   }
 
   .reviews__status-item span {
@@ -615,7 +634,8 @@
 
   .reviews-table__item-review_status {
     border: none;
-    padding-top: 14px;
+    padding-top: 10px;
+    padding-left: 1px;
 
     li {
       position: relative;
